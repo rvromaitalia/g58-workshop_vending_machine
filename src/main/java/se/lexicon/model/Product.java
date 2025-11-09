@@ -44,10 +44,6 @@ public abstract class   Product {
         this.id = id;
     }
 
-    /**
-     *
-     * @return
-     */
     public abstract String use();
 
     /**

@@ -53,7 +53,7 @@ public class Snickers extends Product {
     @Override
     public String use() {
         // Prefer a human-readable size label if Size provides one; fall back to enum name.
-        String sizeLabel = (size != null && size.getSize() != null) ? size.getSize() : (size != null ? size.name() : "UNKNOWN");
+        String sizeLabel = (size != null && size.getLabel() != null) ? size.getLabel() : (size != null ? size.name() : "UNKNOWN");
         return "You enjoy the crunchy " + sizeLabel() + " Snickers.";
     }
 

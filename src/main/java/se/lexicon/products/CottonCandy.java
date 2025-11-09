@@ -29,15 +29,6 @@ public class CottonCandy extends Product {
     }
 
     /**
-     * Returns the flavor of the cotton candy.
-     *
-     * @return the flavor string
-     */
-    public String getFlavor() {
-        return flavor;
-    }
-
-    /**
      * Sets the flavor of the cotton candy.
      * Must be non-null and non-empty.
      *
